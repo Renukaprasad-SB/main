@@ -36,3 +36,4 @@ sigma_j = 0.1 # Jump volatility
 
 print("Black-Scholes Call Price:", black_scholes(S, K, T, r, sigma, "call"))
 print("Merton Jump-Diffusion Call Price:", merton_jump_diffusion(S, K, T, r, sigma, lam, mu_j, sigma_j, option_type="call"))
+print("Black-Scholes Call Price:", black_scholes(S, K, T, r, sigma, "put"))
